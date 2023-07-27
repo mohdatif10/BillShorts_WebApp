@@ -49,11 +49,11 @@ def store_stock_info(api_key, stock_name):
 
 def fetch_and_store_stock_info():
     # Replace 'YOUR_API_KEY' with the provided Alpha Vantage API keys
-    api_key_1 = 'M17TT3FG8VFPN6A7'
-    api_key_2 = '812MLLV3P5DZ0LQY'
-    api_key_3 = 'XBAILH6YXLTH3LFO'
-    api_key_4 = '0QKUDCW6HAD05D0B'
-    api_key_5 = 'SO5DVLT5FPC78MQJ'
+    api_key_1 = 'Use your own key'
+    api_key_2 = 'Use your own key'
+    api_key_3 = 'Use your own key'
+    api_key_4 = 'Use your own key'
+    api_key_5 = 'Use your own key'
 
     # Group the stocks and their respective API keys
     stocks_api_group1 = {'TSLA': api_key_1, 'MSFT': api_key_1}
@@ -220,7 +220,7 @@ def push_crypto_exchange_rates_to_firestore(exchange_rates):
     print("Crypto data exported successfully")
 
 # Replace 'YOUR_API_KEY' with your actual API key from CoinAPI
-api_key = "9A7BAECF-D086-4BDC-A885-C2235573EFA1"
+api_key = "Use your own key"
 to_currency = "USD"
 
 cryptocurrencies = ["BTC", "ETH", "BNB", "DOGE", "LTC", "XRP"]

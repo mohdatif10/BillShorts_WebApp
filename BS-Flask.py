@@ -19,7 +19,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import random
 from urllib.parse import urljoin
 import sys
-sys.path.append(r"c:\users\mohda\anaconda3\lib\site-packages")
+sys.path.append(r"")
 import schedule
 import time
 
